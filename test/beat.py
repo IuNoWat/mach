@@ -19,6 +19,13 @@ beat_times = librosa.frames_to_time(beat_frames, sr=sr)
 
 print(beat_times)
 
+parts = [
+    [9.42,rpi.Color(0,0,0)],
+    [17.5,rpi.Color(50,50,50)],
+    [25,rpi.Color(255,255,255)],
+    [1000,rpi.Color(255,0,0)],
+]
+
 print(beat_times[0])
 
 meh = 10

@@ -1,6 +1,24 @@
 # mach
 
+# TO DO
+
+- [ ] Construire une classe efficiente pour gérer les jeux de lumière
+- [ ] Faire une v1 de la platine avec la batterie
+- [ ] Faire un test de fonctionnement sur batterie
+- [ ] Faire une liste d'achats pour la veste
+- [ ] Commencer la note d'intention du Lorenshow 4
+
 # Comptes-rendus
+
+## 2026_01_17
+
+Je me suis rendu comtpe en décembre que j'utilisais mal la librairie rpi_ws281x? le mieux est de l'utiliser avec le protocole SPI, qui ne nécessite pas sudo et qui laisse libre l'accès à l'audio.
+
+J'ai refais une install fraîche sur ma pi (pi@raspberrypi.local), et modifié beat et test_led pour que cela marche.
+
+J'ai enfin pu tester la librairie librosa, qui s'est révélée tout à fait satisfaisante, il me semble? J'ai fait quelques autres tests, nottament pour un effet stroboscope.
+
+Finalement, j'ai fait un peu de rangement, maintenant que les pricnipes de base sont validés, il va être temps de s'y mettre serieusement.
 
 ## 2025_11_11
 
