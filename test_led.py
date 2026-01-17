@@ -3,7 +3,7 @@ import time
 
 meh = 144
 
-strip = rpi.PixelStrip(meh,18)
+strip = rpi.PixelStrip(meh,10)
 
 strip.begin()
 

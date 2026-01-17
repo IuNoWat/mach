@@ -13,7 +13,6 @@ tempo, beat_frames = librosa.beat.beat_track(y=y, sr=sr)
 
 print(f"Estimated tempo: {tempo} beats per minute")
 
-
 # 4. Convert the frame indices of beat events into timestamps
 
 beat_times = librosa.frames_to_time(beat_frames, sr=sr)
@@ -23,7 +22,7 @@ print(beat_times)
 print(beat_times[0])
 
 meh = 10
-strip = rpi.PixelStrip(meh,18)
+strip = rpi.PixelStrip(meh,10)
 strip.begin()
 
 def led_on() :
